@@ -7,13 +7,13 @@
 body {
   font-family: 'Segoe UI', sans-serif;
   line-height: 1.6;
-  background-color: #f4f4f4;
-  color: #333;
+  background-color: #1c1c1c; /* Charcoal */
+  color: #f0f0f0; /* Light text */
 }
 
 /* Header */
 header {
-  background: #333;
+  background: #2a2a2a;
   color: #fff;
   padding: 1rem 2rem;
 }
@@ -24,6 +24,7 @@ nav {
 }
 nav h1 {
   font-size: 1.5rem;
+  color: #ff4c4c; /* Bold red */
 }
 nav ul {
   list-style: none;
@@ -31,18 +32,18 @@ nav ul {
   gap: 1rem;
 }
 nav a {
-  color: #fff;
+  color: #f0f0f0;
   text-decoration: none;
   transition: color 0.3s;
 }
 nav a:hover {
-  color: #00bcd4;
+  color: #ff4c4c;
 }
 
 /* Hero Section */
 #hero {
-  background: #00bcd4;
-  color: #fff;
+  background: #ff4c4c;
+  color: #1c1c1c;
   padding: 4rem 2rem;
   text-align: center;
 }
@@ -57,24 +58,24 @@ section {
 }
 section h2 {
   margin-bottom: 1rem;
-  color: #00bcd4;
+  color: #ff4c4c;
 }
 ul {
   list-style: disc inside;
 }
 .project {
-  background: #fff;
+  background: #2a2a2a;
   padding: 1rem;
   margin-bottom: 1rem;
-  border-left: 4px solid #00bcd4;
+  border-left: 4px solid #ff4c4c;
 }
 
 /* Footer */
 footer {
   text-align: center;
   padding: 1rem;
-  background: #333;
-  color: #fff;
+  background: #2a2a2a;
+  color: #f0f0f0;
   margin-top: 2rem;
 }
 
